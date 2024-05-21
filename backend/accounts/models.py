@@ -13,4 +13,4 @@ class AccountHolder(models.Model):
     fingerprint = models.BinaryField()
 
     def __str__(self):
-        return self.email
+        return self.account_name.upper()
