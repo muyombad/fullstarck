@@ -67,15 +67,15 @@ function App() {
             <th style={thStyles}>Phone Number</th>
           </tr>
         </thead>
-        {items.map(item => (
-        <tbody key={item.id}>
+        {items.map(itema => (
+        <tbody key={itema.id}>
         <tr>
-            <td style={tdStyles}>{item.account_number}</td>
-            <td style={tdStyles}>{item.account_name}</td>
-            <td style={tdStyles}>{item.available_balance}</td>
-            <td style={tdStyles}>{item.address}</td>
-            <td style={tdStyles}>{item.email}</td>
-            <td style={tdStyles}>{item.phone_number}</td>
+            <td style={tdStyles}>{itema.account_number}</td>
+            <td style={tdStyles}>{itema.account_name}</td>
+            <td style={tdStyles}>{itema.available_balance}</td>
+            <td style={tdStyles}>{itema.address}</td>
+            <td style={tdStyles}>{itema.email}</td>
+            <td style={tdStyles}>{itema.phone_number}</td>
           </tr>
           
         </tbody>
