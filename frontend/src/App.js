@@ -116,7 +116,7 @@ function App() {
         
         <thead >
           <tr>
-            <th style={thStyles}>Account Number</th>
+            <th style={thStyles}>Account Numbers</th>
             <th style={thStyles}>Account Name</th>
             <th style={thStyles}>Available Balance</th>
             <th style={thStyles}>Address</th>
